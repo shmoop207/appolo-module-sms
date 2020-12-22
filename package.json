@@ -1,10 +1,13 @@
 {
-  "name": "@vidazoo/module-sms",
+  "name": "@appolo/module-sms",
   "version": "8.0.0",
   "description": "",
   "private": false,
   "keywords": [],
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@appolo/logger": "^8.0.0",
     "@appolo/engine": "^8.0.19",
