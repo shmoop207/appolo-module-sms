@@ -11,8 +11,8 @@ export {ISmsProvider}
 @module()
 export class SmsModule extends Module<IOptions> {
 
-    public static for(options?: IModuleParams) {
-        return {type:SmsModule,options}
+    public static for(options?: IOptions) {
+        return {type: SmsModule, options}
     }
 
 
